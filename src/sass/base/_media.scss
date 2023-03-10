@@ -1,6 +1,16 @@
-@media (max-width: 949px) {
-    .container {
-        padding: 0 30px;
+@media (max-width: 991px){
+    .advantages {
+        .advantages__wrapper {
+            justify-content: center;
+        }
+        .advantages__item:last-child {
+            margin-top: 30px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 20px;
+        }
     }
 }
 @media (max-width: 767px){
@@ -9,16 +19,38 @@
             align-items: center;
         }
     }
+    .header {
+        .header__logo {
+            width: 170px;
+        }
+    }
     .advantages {
-        .advantages__header {
+        .title {
             font-size: 25px;
             width: 100%;
         }
         .advantages__wrapper {
             justify-content: center;
         }
+        .advantages__wrapper:last-child {
+            margin-top: 0
+        }
         .advantages__item {
             margin-top: 50px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 25px;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto; 
+            margin-top: 50px;
+        }
+        .consultation__desc {
+            margin-top: 20px;
+            text-align: center;
         }
     }
 }
@@ -44,11 +76,30 @@
         }
     }
     .promo {
+        .container {
+            padding: 0 40px;
+        }
         .promo__header {
             font-size: 35px;
         }
         .promo__subheader {
             font-size: 18px;
+        }
+    }
+    .advantages {
+        .title {
+            font-size: 22px;
+        }
+        .container {
+            padding: 0 40px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 16px;
+        }
+        .consultation__desc {
+            font-size: 16px;
         }
     }
 }
@@ -74,7 +125,7 @@
                 margin-top: 13px;
             }
             .header__phone {
-                font-size: 30px;
+                font-size: 20px;
             }
         }
     }
@@ -86,14 +137,41 @@
         .promo__subheader {
             font-size: 13px;
             text-align: center;
+            margin-top: 2px;
         }
         .promo__icons {
             flex-direction: column;
             align-items: center;
             width: 100%;
+            margin-top: 36px;
             .promo__icon {
                 margin-top: 20px;
             }
+        }
+    }
+    .advantages {
+        .container {
+            padding: 0;
+        }
+    }
+    .consultation {
+        .container {
+            padding: 0;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .promo {
+        .promo__header{
+            font-size: 19px;
+        }
+        .promo__subheader {
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        .title {
+            display: none;
         }
     }
 }
