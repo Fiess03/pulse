@@ -9,6 +9,18 @@
             align-items: center;
         }
     }
+    .advantages {
+        .advantages__header {
+            font-size: 25px;
+            width: 100%;
+        }
+        .advantages__wrapper {
+            justify-content: center;
+        }
+        .advantages__item {
+            margin-top: 50px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .header {
