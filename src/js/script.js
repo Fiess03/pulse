@@ -6,12 +6,15 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="img/arrow_right.png" alt="right"></button>',
         responsive: [
             {
-                breakpoint: 992,
-                settings: {
-                    dots: true,
-                    arrows: false
-                }
-            }
+              breakpoint: 425,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+                arrows: false,
+              }
+            },
         ]
     });
 
